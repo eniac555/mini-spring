@@ -1,7 +1,7 @@
-package org.spring.bean;
+package org.minispring.bean;
 
 import org.junit.Test;
-import org.spring.beans.BeanFactory;
+import org.minispring.beans.factory.BeanFactory;
 
 public class SimpleBeanFactoryTest {
 

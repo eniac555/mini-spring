@@ -1,4 +1,4 @@
-package org.spring.beans;
+package org.minispring.beans.factory;
 
 import java.util.HashMap;
 import java.util.Map;
