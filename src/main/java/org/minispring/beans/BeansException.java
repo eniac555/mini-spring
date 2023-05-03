@@ -1,5 +1,8 @@
 package org.minispring.beans;
 
+/**
+ * 异常类
+ */
 public class BeansException extends RuntimeException {
 
     public BeansException(String message) {

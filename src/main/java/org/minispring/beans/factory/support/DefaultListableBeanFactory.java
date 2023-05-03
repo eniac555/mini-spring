@@ -9,7 +9,7 @@ import java.util.*;
 
 
 /**
- * 它是 AbstractAutowireCapableBeanFactory 的子类，继承了其所有的 Bean 实例化和属性填充方法，
+ * 是 AbstractAutowireCapableBeanFactory 的子类，继承了其所有的 Bean 实例化和属性填充方法，
  * 并增加了注册和查找 Bean 定义及管理单例 Bean 的功能。
  */
 public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory
@@ -18,7 +18,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
 
     @Override
-    public void registryBeanDefinition(String beanName, BeanDefinition beanDefinition) {
+    public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
         beanDefinitionMap.put(beanName, beanDefinition);
     }
 
