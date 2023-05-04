@@ -11,7 +11,7 @@ import java.util.Objects;
  */
 public class BeanDefinition {
 
-    //一句话总结：描述一个Bean对象的定义信息
+    //一句话总结：描述一个Bean对象的定义信息，每个bean对应一个BeanDefinition
 
 
     public static String SCOPE_SINGLETON = "singleton";

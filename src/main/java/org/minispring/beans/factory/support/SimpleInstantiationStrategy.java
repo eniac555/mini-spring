@@ -7,6 +7,9 @@ import java.lang.reflect.Constructor;
 
 public class SimpleInstantiationStrategy implements InstantiationStrategy {
 
+
+    //一句话总结：简单的bean实例化实现，根据bean的无参构造函数实例化对象
+
     /**
      * 简单的bean实例化策略，根据bean的无参构造函数实例化对象
      *

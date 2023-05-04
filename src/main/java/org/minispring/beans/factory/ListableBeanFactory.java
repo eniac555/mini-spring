@@ -6,10 +6,12 @@ import java.util.Map;
 
 /**
  * ListableBeanFactory 是 Spring 框架中的一个核心接口，它是 BeanFactory 接口的子接口，
- * 提供了一些列的方法用于检索 Bean 定义及其相关信息，使得开发者可以更加方便地获取应用程序中的所有 Bean，
- * 以及对这些 Bean 进行操作。
+ * 用于查询Bean的接口，它支持查询Bean的定义、实例、名称和别名等一系列功能
  */
 public interface ListableBeanFactory extends BeanFactory {
+
+
+    //一句话总结：用于查询Bean的接口，它支持查询Bean的定义、实例、名称和别名等一系列功能
 
 
     /**

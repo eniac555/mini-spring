@@ -4,10 +4,11 @@ import org.minispring.beans.BeansException;
 import org.minispring.beans.factory.BeanFactory;
 
 /**
- * AutowireCapableBeanFactory是Spring框架中的一个接口，继承自BeanFactory接口，
- * 并提供了自动装配的能力。具体来说，它可以创建Bean对象并自动装配Bean的依赖关系，包括构造函数、属性和方法等。
+ 用于实现自动装配功能的接口，它提供了实现自动装配、Bean后置处理器、懒加载、AOP和Bean的生命周期管理等一系列功能的方法
  */
 public interface AutowireCapableBeanFactory extends BeanFactory {
+
+    //一句话总结：用于实现自动装配功能的接口
 
     /**
      * 执行BeanPostProcessors的postProcessBeforeInitialization方法

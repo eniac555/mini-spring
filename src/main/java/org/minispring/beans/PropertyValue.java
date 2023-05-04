@@ -12,7 +12,7 @@ package org.minispring.beans;
  */
 public class PropertyValue {
 
-    //一句话总结：封装Bean对象属性的值
+    //一句话总结：封装Bean对象属性的值，常被用作BeanDefinition中的属性列表
 
     //被final修饰的成员变量表示该变量的值在初始化之后就不能再被修改。
     private final String name;

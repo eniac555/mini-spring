@@ -3,7 +3,15 @@ package org.minispring.beans.factory.config;
 import org.minispring.beans.BeansException;
 import org.minispring.beans.PropertyValues;
 
+
+/**
+ * 用于扩展Bean实例化过程的接口。它继承了BeanPostProcessor接口，并增加了一些额外的扩展方法。
+ */
 public interface InstantiationAwareBeanPostProcessor extends BeanPostProcessor{
+
+    //一句话总结：扩展Bean实例化过程的接口
+
+
     /**
      * 在bean实例化之前执行
      *

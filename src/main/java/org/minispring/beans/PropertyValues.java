@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class PropertyValues {
 
-    //一句话总结：描述Bean对象的属性配置信息
+    //一句话总结：描述Bean对象的属性配置信息，每个PropertyValues对象通常包含多个PropertyValue对象
 
 
     private final List<PropertyValue> propertyValueList = new ArrayList<>();

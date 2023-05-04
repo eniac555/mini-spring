@@ -13,7 +13,7 @@ package org.minispring.beans.factory.config;
  */
 public interface SingletonBeanRegistry {
 
-    //一句话总结：管理单例Bean对象的注册和获取
+    //一句话总结：管理单例Bean对象的注册和获取的接口
 
     //获取bean
     Object getSingleton(String beanName);

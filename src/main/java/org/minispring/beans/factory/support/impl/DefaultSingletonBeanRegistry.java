@@ -40,6 +40,8 @@ import java.util.Map;
  */
 public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 
+    //一句话总结：提供了一些默认的单例Bean对象的注册和获取方法，并对注册的Bean对象进行三级缓存
+
     //一级缓存
     private Map<String, Object> singletonObjects = new HashMap<>();
     //二级缓存

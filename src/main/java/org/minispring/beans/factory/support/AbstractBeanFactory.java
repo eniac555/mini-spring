@@ -14,8 +14,20 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 用于创建和管理Bean实例的抽象类，它提供了一些通用的BeanFactory功能和抽象方法
+ * 统一的Bean定义管理
+ * 统一的Bean实例管理
+ * 统一的Bean后置处理器管理
+ * 统一的Bean初始化管理
+ * 统一的Bean销毁管理
+ * 提供Bean的作用域
+ */
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry
         implements ConfigurableBeanFactory {
+
+    //一句话总结：创建和管理Bean实例的抽象类，提供了一些通用的BeanFactory功能和抽象方法
+
     private final List<BeanPostProcessor> beanPostProcessors = new ArrayList<>();
 
     private final Map<String, Object> factoryBeanObjectCache = new HashMap<>();

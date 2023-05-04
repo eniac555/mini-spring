@@ -6,8 +6,11 @@ import org.minispring.beans.factory.config.BeanDefinition;
 /**
  * BeanDefinition注册表接口
  * 用于注册和获取BeanDefinition的方法
+ * 管理Bean定义的接口，提供注册、获取、删除、判断是否存在和获取所有Bean定义名称等方法
  */
 public interface BeanDefinitionRegistry {
+
+    //一句话总结：管理Bean定义的接口，提供注册、获取、删除、判断是否存在和获取所有Bean定义名称等方法
 
     /**
      * 向注册表中注册BeanDefinition

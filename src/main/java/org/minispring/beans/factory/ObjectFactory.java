@@ -16,5 +16,6 @@ import org.minispring.beans.BeansException;
 public interface ObjectFactory<T> {
 
     //一句话总结：创建和获取指定类型的对象实例
+
     T getObject() throws BeansException;
 }

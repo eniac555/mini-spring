@@ -25,6 +25,8 @@ import java.lang.reflect.Method;
  */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory
         implements AutowireCapableBeanFactory {
+
+    //一句话总结：实现了Bean的自动装配、实例化、初始化、销毁等核心功能
     private InstantiationStrategy instantiationStrategy = new SimpleInstantiationStrategy();
 
     @Override

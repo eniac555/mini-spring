@@ -14,6 +14,8 @@ import java.util.*;
  */
 public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory
         implements ConfigurableListableBeanFactory, BeanDefinitionRegistry {
+
+    //一句话总结：创建和管理Bean实例的实现类之一，提供一系列管理Bean定义、实例化、初始化、销毁等核心功能
     private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
 
 
